@@ -1,4 +1,4 @@
-let userInput : unknown = 5
+const  userInput : unknown = 5
 let userName : string = "Hello"
 
 // Type assertion to narrow down the type of userInput
