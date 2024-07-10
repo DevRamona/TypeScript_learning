@@ -1,3 +1,4 @@
+"use strict";
 // export function get_age(age: (string | number)): number {
 //     let result = ''
 //     if(typeof age === "number") {
@@ -7,6 +8,7 @@
 //  }
 //  return result;
 //  }
-for (var i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }
+//# sourceMappingURL=charproblem.js.map

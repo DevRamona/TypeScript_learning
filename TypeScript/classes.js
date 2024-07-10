@@ -1,8 +1,10 @@
+"use strict";
 // class Person {
 //     ssn : string = ""
 //     firstName : string = '' 
 //     lastName : string = ""
-var message;
+let message;
+// message = 234
 message = "Hello";
-message = 234;
 console.log(message);
+//# sourceMappingURL=classes.js.map

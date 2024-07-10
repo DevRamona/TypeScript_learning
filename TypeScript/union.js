@@ -1,3 +1,4 @@
+"use strict";
 // // function add(a: string | number, b: string | number) {
 // //     if(typeof a === "number" && typeof b === "number") {
 // //         return a +b ;
@@ -19,6 +20,7 @@
 // console.log(kgToLbs(10))
 // // console.log(kgToLbs("10"))
 function myFunc(name) {
-    throw new Error("Failed");
+    throw new Error(`Failed`);
 }
 myFunc("Ramona");
+//# sourceMappingURL=union.js.map
