@@ -1,29 +1,59 @@
-// // function add(a: string | number, b: string | number) {
-// //     if(typeof a === "number" && typeof b === "number") {
-// //         return a +b ;
+// // // function add(a: string | number, b: string | number) {
+// // //     if(typeof a === "number" && typeof b === "number") {
+// // //         return a +b ;
+// // //     }
+// // //     if(typeof a === "string" && typeof b === "string") {
+// // //         return a.concat(b);
+// // //     }
+// // //     throw new Error('Parameters must either be numbers or strings')
+// // // }
+// // // console.log(add(1, 2));
+// // // console.log(add("hello", "world")); 
+
+
+// // function kgToLbs(weight : number | string): number {
+// //     if(typeof weight === "number") {
+// //       return weight * 2.2;
+
+// //     } else {
+// //         return parseInt(weight) *2.2
 // //     }
-// //     if(typeof a === "string" && typeof b === "string") {
-// //         return a.concat(b);
-// //     }
-// //     throw new Error('Parameters must either be numbers or strings')
+
 // // }
-// // console.log(add(1, 2));
-// // console.log(add("hello", "world")); 
+// // console.log(kgToLbs(10))
+// // // console.log(kgToLbs("10"))
+
+// function myFunc(name:string): never {
+//     throw new Error(`Failed`)
+// }
+// myFunc("Ramona")
 
 
-// function kgToLbs(weight : number | string): number {
-//     if(typeof weight === "number") {
-//       return weight * 2.2;
 
-//     } else {
-//         return parseInt(weight) *2.2
-//     }
+// type A = {
+//     firstName : String;
+//     lastName : string;
+//     age : number;
+//     isMarried : boolean
+// }
+// type B = {
+//     name : string;
+//     year : number;
 
 // }
-// console.log(kgToLbs(10))
-// // console.log(kgToLbs("10"))
+// type C = A | B
 
-function myFunc(name:string): never {
-    throw new Error(`Failed`)
-}
-myFunc("Ramona")
+// function myFunction(func :C) :void {
+   
+
+// }
+// // const myArr : C = {
+// // firstName : "Mate",
+// // lastName : "George",
+// // age : 32,
+// // isMarried : false
+
+// // }
+
+const obj : {name :string, age : number, status : string} = {name : "John", age: 30, status : "jgirjg" }
+ 
