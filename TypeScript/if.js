@@ -13,5 +13,5 @@ else if (itemCount > 10) {
 else {
     throw new Error('The number of items cannot be negative!');
 }
-console.log(`You got ${discount}% discount. `);
+console.log(`You got ${discount}% discount.`);
 //# sourceMappingURL=if.js.map
