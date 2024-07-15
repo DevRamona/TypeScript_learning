@@ -17,7 +17,7 @@
 // const person = new Person("2833", "John", "Doe")
 // console.log(person)
 
-type newString = string | number;
+type stringOrNumber = string | number;
 let message : newString;
 // message = 234
 message = "Hello"

@@ -8,7 +8,7 @@ else if (itemCount > 5 && itemCount <= 10) {
     discount = 10; // 10% discount 
 }
 else if (itemCount > 10) {
-    discount = 15; // 15%
+    discount = 17; // 15%
 }
 else {
     throw new Error('The number of items cannot be negative!');
