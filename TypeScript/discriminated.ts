@@ -6,6 +6,10 @@ type Square = {
     sideLength : number,
     kind : "square"
 }
+type Triangle =  {
+    sideWidth : number,
+    kind : "triangle"
+}
 type Shape = Circle | Square
 
 function area (shape : Shape) {
